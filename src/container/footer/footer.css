@@ -1,0 +1,30 @@
+.footer{
+    padding: 20px;
+    padding-bottom: 50px;
+
+}
+.footer_xl {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    color: grey;
+    font-size: small;
+}
+
+.footer_xl p{
+    color: grey;
+}
+.footer_mob{
+    display: none;
+}
+@media screen and (max-width: 700px){
+    .footer_xl{
+        display: none;
+    }
+    .footer_mob{
+        display:block;
+    }
+    .footer_mob p{
+        color: grey;
+    }
+}

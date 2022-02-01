@@ -1,0 +1,45 @@
+
+.form{
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 15px;
+    min-height: 450px;
+    min-width: 550px ;
+}
+.form-footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.progressbar {
+    height: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.progressbar div {
+    width: 33.3%;
+    height: 100%;
+}
+.button_group_pages{
+    padding-top: 30px;
+}
+@media (max-width: 770px) {
+    .form {
+        height: auto;
+        width: auto;
+    }
+}
+@media (max-width: 650px) {
+    .form {
+        height: auto;
+        width: auto;
+        min-width: 220px;
+    }
+}
+@media (min-height: 800px) {
+    .form {
+        min-height: 500px;
+        width: auto;
+    }
+}

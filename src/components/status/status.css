@@ -1,0 +1,61 @@
+.playline_status-container-currentstatus{
+    display: flex;
+    justify-content: center;
+    color: #464646;
+}
+.playline_status-container-currentstatus p{
+    font-size: xx-large;
+}
+.playline__status-container-message{
+    display: flex;
+    justify-content: center;
+    color: #737373;
+}
+.playline_status-container-protip{
+    display: flex;
+    justify-content: center;
+    color: #737370;
+}
+.status_selected_players-table{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+.Avtar-container{
+    justify-content: center;
+}
+.status_selected_players-points{
+    font-size: small;
+}
+.status_cta{
+    display: flex;
+    justify-content: center;
+}
+.status_cta button{
+    border-radius: 20px;
+}
+.app_link-container{
+    display: flex;
+    justify-content: center;
+}
+.app_link-container p{
+   color: grey;
+}
+
+.app_link-container_links{
+    display: flex;
+    justify-content: center;
+}
+.app_link-container_links img{
+    height: 40px;
+    width: 100px;
+
+}
+
+
+@media screen and (max-width: 700px){
+    .playline_status-container-currentstatus p{
+        font-size: x-large;
+    }
+
+}

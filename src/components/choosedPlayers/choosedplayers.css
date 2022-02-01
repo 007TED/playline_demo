@@ -1,0 +1,19 @@
+.available_players{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+@media (max-width: 770px) {
+    .available_players {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #basketball_icon{
+        visibility: hidden;
+    }
+}
